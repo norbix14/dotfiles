@@ -52,3 +52,10 @@ alias grv='git remote -v'
 alias gb='git branch'
 alias gcout='git checkout'
 alias gsw='git switch'
+
+# change Node version
+alias node1013='nvm use 10.13.0'
+alias node1015='nvm use 10.15.3'
+alias node1024='nvm use 10.24.1'
+alias node14='nvm use 14.17.1'
+alias node16='nvm use 16.14.0'
