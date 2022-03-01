@@ -37,22 +37,6 @@ alias workbench='mysql-workbench'
 alias lapps='cd ~/lampstack-8.0.7-1/apps'
 alias xapps='cd /opt/lampp/htdocs'
 
-# alias for git most used commands
-alias gss='git status -s'
-alias gs='git status'
-alias glo='git log --oneline -10'
-#alias gl='git log -5'
-alias gl='git log --graph --abbrev-commit --decorate --format=format:"%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)" --all -14'
-alias ga='git add'
-alias gaa='git add .'
-alias gc='git commit -m'
-alias gra='git remote add'
-alias gr='git remote'
-alias grv='git remote -v'
-alias gb='git branch'
-alias gcout='git checkout'
-alias gsw='git switch'
-
 # change Node version
 alias node1013='nvm use 10.13.0'
 alias node1015='nvm use 10.15.3'
