@@ -4,6 +4,7 @@ alias updates='apt list -a --upgradable'
 alias refresh='sudo snap refresh'
 alias upgrade='sudo apt upgrade'
 alias fullupgrade='sudo apt full-upgrade'
+alias fixwifi='sudo bash ~/Descargas/utils/rtl8723be_wifi/rtl8723be.sh'
 
 # alias to change directory
 alias home='cd ~'
@@ -38,8 +39,13 @@ alias lapps='cd ~/lampstack-8.0.7-1/apps'
 alias xapps='cd /opt/lampp/htdocs'
 
 # change Node version
-alias node1013='nvm use 10.13.0'
-alias node1015='nvm use 10.15.3'
-alias node1024='nvm use 10.24.1'
-alias node14='nvm use 14.17.1'
+#alias node1013='nvm use 10.13.0'
+alias node10='nvm use 10.15.3'
+#alias node1024='nvm use 10.24.1'
+alias node12='nvm use 12.22.12'
+alias node14='nvm use 14.18.1'
 alias node16='nvm use 16.14.0'
+
+# check node version
+alias nodev='node --version'
+
